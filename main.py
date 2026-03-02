@@ -65,4 +65,11 @@ if __name__ == '__main__':
     parameters = Parameters()
     manager = Manager(parameters)
 
+    for apartment in manager.apartments.values():
+        print(apartment.key, apartment.name, apartment.location, apartment.area_m2)
+        for room in apartment.rooms.values():
+            print('  ', room.name, room.area_m2)
+
+    for tenant in manager.tenants.values():
+        print(tenant.name, tenant.apartment, tenant.room, tenant.rent_pln, tenant.deposit_pln, tenant.date_agreement_from, tenant.date_agreement_to)
     
