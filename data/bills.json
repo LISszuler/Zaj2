@@ -1,0 +1,14 @@
+{
+    "bill-1": {
+        "amount": 1700,
+        "date": "31.03.26",
+        "type": "czynsz",
+        "apartment": "polanka"
+    },
+    "bill-2": {
+        "amount": 1700,
+        "date": "31.03.26",
+        "type": "czynsz",
+        "apartment": "polanka"
+    }
+}
